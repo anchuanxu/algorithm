@@ -33,6 +33,7 @@ void __merge(T arr[],int l,int mid,int r){
     //递归使用归并算法排序，对arr[l...r]的范围进行排序
 };
 
+<<<<<<< HEAD
 /*
  * //自顶向上的归并排序
 template <typename T>
@@ -40,12 +41,17 @@ void  __mergeSort(T arr[], int l,int r){
 
     //优化点：在数据较少的时候考虑插入排序
 
+=======
+template <typename T>
+void  __mergeSort(T arr[], int l,int r){
+>>>>>>> 211f433dbd2e7535a55993f2e2a6bb1999054119
     // 先考虑越界
     if(l>=r)
         return;
     int mid  = (l+r)/2;
     __mergeSort(arr,l,mid);
     __mergeSort(arr,mid+1,r);
+<<<<<<< HEAD
 
     //普通方法
     __merge(arr,l,mid,r);
@@ -72,6 +78,14 @@ int main() {
     // 测试模板函数，传入整型数组
     int a[10] = {10,9,8,7,6,5,4,3,2,1};
     mergeSortBU(a,10);
+=======
+    __merge(arr,l,mid,r);
+}
+int main() {
+    // 测试模板函数，传入整型数组
+    int a[10] = {10,9,8,7,6,5,4,3,2,1};
+    __mergeSort( a ,0,9 );
+>>>>>>> 211f433dbd2e7535a55993f2e2a6bb1999054119
     for( int i = 0 ; i < 10 ; i ++ )
         cout<<a[i]<<" ";
     cout<<endl;
