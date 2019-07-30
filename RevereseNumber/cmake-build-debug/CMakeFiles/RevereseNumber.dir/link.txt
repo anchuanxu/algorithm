@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RevereseNumber.dir/main.cpp.o  -o RevereseNumber 

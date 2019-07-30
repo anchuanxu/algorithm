@@ -1,0 +1,3 @@
+/home/xu/CLionProjects/algorithm/RevereseNumber/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xu/CLionProjects/algorithm/RevereseNumber/cmake-build-debug/CMakeFiles/RevereseNumber.dir
+/home/xu/CLionProjects/algorithm/RevereseNumber/cmake-build-debug/CMakeFiles/edit_cache.dir

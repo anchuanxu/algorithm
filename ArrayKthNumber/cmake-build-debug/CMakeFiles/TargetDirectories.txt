@@ -1,0 +1,3 @@
+/home/xu/CLionProjects/algorithm/ArrayKthNumber/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xu/CLionProjects/algorithm/ArrayKthNumber/cmake-build-debug/CMakeFiles/ArrayKthNumber.dir
+/home/xu/CLionProjects/algorithm/ArrayKthNumber/cmake-build-debug/CMakeFiles/edit_cache.dir
